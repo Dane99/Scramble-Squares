@@ -8,27 +8,11 @@
 #include <fstream>
 #include <time.h>
 using namespace std;
-//vector<string> cardTop = { "red_b", "blue_t", "red_t", "red_b", "blue_t", "purple_b", "red_b", "red_t", "blue_b", "purple_t", "purple_b", "purple_t", "red_b","red_b","red_t","purple_t","blue_t","blue_t","purple_t","green_b","green_b","green_b","purple_t","purple_t","purple_t" };
-//vector<string> cardRight = { "purple_b", "green_b", "blue_t", "blue_t", "red_b", "blue_b", "purple_b", "green_t", "green_b", "green_t", "green_b", "blue_b", "purple_b", "green_t", "red_t", "red_t", "green_t", "green_b", "red_b", "red_b", "red_t", "purple_t", "green_t", "red_t", "red_b" };
-//vector<string> cardBottom = { "blue_b", "red_b", "blue_b", "green_b", "red_b", "red_t", "blue_b", "red_b", "red_b", "blue_b", "blue_t", "purple_b", "green_t", "red_t", "purple_b", "green_t", "purple_b", "purple_t", "blue_t", "blue_t", "green_t", "red_b", "purple_t", "blue_b", "red_t" };
-//vector<string> cardLeft = { "blue_b", "purple_t", "green_t", "purple_t", "purple_b", "purple_t", "green_b", "purple_b", "purple_t", "red_t", "purple_t", "green_b", "blue_t", "purple_b", "green_t", "blue_b", "red_b", "red_t", "blue_t", "purple_b", "purple_b", "blue_t", "purple_t", "green_b", "purple_b" };
 
-//vector<string> cardTop = { "r_b", "b_t", "y_b", "r_b", "g_t", "y_b", "r_b", "b_t", "b_b", "g_t", "y_t", "r_b", "y_b", "b_b", "g_t", "y_t" };
-//vector<string> cardRight = { "g_b", "b_b", "y_b", "g_t", "g_b", "b_t", "r_b", "y_b", "y_t", "g_t", "r_b", "b_t", "g_b", "b_t", "g_t", "y_t" };
-//vector<string> cardBottom = { "r_t", "y_b", "g_b", "b_t", "b_b", "r_t", "y_t", "g_b", "r_t", "y_t", "b_t", "r_t", "y_t", "y_t", "y_b", "y_b" };
-//vector<string> cardLeft = { "y_b", "g_t", "b_t", "y_t", "y_t", "g_t", "b_b", "r_t", "g_b", "y_b", "g_b", "r_t", "y_b", "g_t", "b_b", "g_b" };
-
-
-vector<string> cardTop = { "grey_t", "brown_t", "brown_t", "brown_b", "grey_t", "orange_b", "brown_b", "black_b", "orange_b" };
-vector<string> cardRight = { "brown_b", "black_t", "grey_t", "grey_b", "brown_t", "brown_b", "grey_b", "orange_t", "black_t" };
-vector<string> cardBottom = { "black_t", "orange_b", "orange_b", "black_b", "black_b", "grey_t", "orange_t", "brown_t", "grey_t" };
-vector<string> cardLeft = { "orange_t", "grey_t", "black_b", "orange_b", "orange_b", "brown_t", "black_t", "black_t", "grey_b" };
-
-
-//vector<string> cardTop = { "yellow_t", "red_b", "red_b", "green_t", "red_t", "green_t", "blue_t", "red_t", "yellow_b" };
-//vector<string> cardRight = { "blue_b", "yellow_b", "blue_t", "blue_b", "blue_t", "red_t", "yellow_t", "blue_b", "blue_b" };
-//vector<string> cardBottom = { "green_b", "green_t", "green_b", "red_t", "green_b", "blue_t", "yellow_b", "green_b", "green_b" };
-//vector<string> cardLeft = { "red_b", "blue_t", "yellow_t", "yellow_t", "yellow_t", "blue_b", "green_b", "yellow_t", "red_b" };
+vector<string> cardTop = { "yellow_t", "red_b", "red_b", "green_t", "red_t", "green_t", "blue_t", "red_t", "yellow_b" };
+vector<string> cardRight = { "blue_b", "yellow_b", "blue_t", "blue_b", "blue_t", "red_t", "yellow_t", "blue_b", "blue_b" };
+vector<string> cardBottom = { "green_b", "green_t", "green_b", "red_t", "green_b", "blue_t", "yellow_b", "green_b", "green_b" };
+vector<string> cardLeft = { "red_b", "blue_t", "yellow_t", "yellow_t", "yellow_t", "blue_b", "green_b", "yellow_t", "red_b" };
 
 const int lengthOfSide = 3;
 const int numberOfSides = 4;
