@@ -7,7 +7,7 @@
 #include <algorithm>
 #include <fstream>
 #include <time.h>
-using namespace std;
+//using namespace std;
 
 vector<string> cardTop = { "yellow_t", "red_b", "red_b", "green_t", "red_t", "green_t", "blue_t", "red_t", "yellow_b" };
 vector<string> cardRight = { "blue_b", "yellow_b", "blue_t", "blue_b", "blue_t", "red_t", "yellow_t", "blue_b", "blue_b" };
